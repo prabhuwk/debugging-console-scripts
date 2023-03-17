@@ -37,5 +37,5 @@ $ docker-compose up
 5. Click `Run and Debug` in Visual Studio Code Editor. Click create a launch.json file.
    Now click Python and select Remote Attach. Accept default host and port. Ensure that pathMappings are correct.
  
-6. To debug Select `Python: Remote Attach`.
+6. To debug Select `Python: Remote Attach`.  
 ![debugging_python](./debugging_python.gif)
