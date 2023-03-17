@@ -1,0 +1,14 @@
+version: '2.2'
+services:
+  app:
+    build:
+      context: . #required for local development and debugging
+      # image: specify image path
+    ports:
+      - 5678:5678
+    volumes:
+      - /full/path/to/src:/app/src
+    # restart: always
+    environment:
+      - "DEBUG=${ENABLE_DEBUGPY}"
+    command: ["sh", "-c", "testcli create -n testdir"]
