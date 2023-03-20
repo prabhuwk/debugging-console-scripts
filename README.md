@@ -24,7 +24,7 @@ $ pip install -e .
 
 2. Update command for debugging in `docker-compose.yaml`. You can also update environment variables defined in `.env` file.
 ```yaml
-command: ["sh", "-c", "testcli create -n testdir"]
+command: ["testcli create -n testdir"]
 ```
 
 3. Start docker-compose

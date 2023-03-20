@@ -11,4 +11,4 @@ services:
     # restart: always
     environment:
       - "DEBUG=${ENABLE_DEBUGPY}"
-    command: ["sh", "-c", "testcli create -n testdir"]
+    command: ["testcli create -n testdir"]
